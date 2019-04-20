@@ -13,16 +13,11 @@
 					</button>
 					<div class="collapse navbar-collapse navbar-1">
 						<ul class="site-navigation nav navbar-nav ml-auto">
+							{% for item in data.navigation %}
 							<li class="nav-item">
-								<a href="index.html" class="nav-link a-btn">Github</a>
+								<a href="{{item.link}}" class="nav-link a-btn">{{item.name}}</a>
 							</li>
-							<li class="nav-item">
-							</li>
-							<li class="nav-item">
-							</li>
-							<li class="nav-item">
-								<a href="post.html" class="a-btn nav-link">post</a>
-							</li>
+							{% endfor %}							
 						</ul>
 					</div>
 				</nav>

@@ -1,4 +1,6 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
+- name: Github
+  link: https//github.com/seatop/gzsxtk
+- name: 知识
+  link: /zhishi.html
+- name: 方法
+  link: /fangfa.html

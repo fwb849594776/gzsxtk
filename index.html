@@ -2,12 +2,41 @@
 layout: default
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1 class="mg-md text-center">
+					积累、思考、发现
+				</h1>
+				<h3 class="mg-md float-none text-center">
+					gzsxtk.com
+				</h3>
+				<div class="text-center">
+					<a href="index.html" class="btn btn-lg btn-wire">每日一题</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container fill-bloc-bottom-edge">
+		<div class="row">
+			<div class="col-12">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-0 END -->
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
+
+
+</div>
+<!-- Main container END -->
+    
+
+
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+<!-- Preloader END -->

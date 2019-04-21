@@ -61,6 +61,13 @@ a:hover{text-decoration: none; cursor:pointer;}
 	flex-grow: 1;
 	display: flex;
 }
+
+.bloc-fill-screen > .container_post{
+	align-self: flex-middle;
+	display: flex;
+}
+
+
 .bloc-fill-screen > .container > .row{
 	flex-grow: 1;
 	align-self: center;

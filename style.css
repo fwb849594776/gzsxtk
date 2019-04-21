@@ -62,17 +62,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	display: flex;
 }
 
-.bloc-fill-screen > .container_post{
-	align-self: flex-middle;
-	display: flex;
-}
-
-.bloc-fill-screen > .container_post > .row{
-	flex-grow: 1;
-	align-self: center;
-	width:100%;
-}
-
 .bloc-fill-screen > .container > .row{
 	flex-grow: 1;
 	align-self: center;
